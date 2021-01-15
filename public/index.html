@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Botan Celik - Portfolio</title>
+    <link rel="stylesheet" href="/style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@500;700&family=Jost:wght@500&family=Roboto+Mono:wght@500;700&display=swap">
+    <script src="https://unpkg.com/feather-icons"></script>
+</head>
+<body>
+
+    <!-- navigation sidebar -->
+    <div class="nav m--card">
+        <a href="#about" class="nav__item m--active"><i data-feather="user"></i><span>About</span></a>
+        <a href="#projects" class="nav__item"><i data-feather="git-pull-request"></i><span>Projects</span></a>
+        <a href="#blog" class="nav__item"><i data-feather="message-circle"></i><span>Blog</span></a>
+    </div>
+
+    <!-- about -->
+    <div class="about m--card" id="about">
+        <img class="about__img" src="/assets/profile.jpg" alt="" width="256">
+        <h1 class="about__title">Botan Celik</h1>
+        <div class="pill">
+            <a href="mailto:botan_kadir@outlook.com" class="pill__item"><i data-feather="mail">Mail</i></a>
+            <a href="https://github.com/TheBloodyAmateur" class="pill__item"><i data-feather="github">GitHub</i></a>
+            <a href="https://linkedin.com/in/botan-celik-313a1a1bb/" class="pill__item"><i data-feather="linkedin">LinkedIn</i></a>
+        </div>
+        <p>Hey! I’m Botan, an 18-year-old programmer from Austria. Feel free to check out my projects below.</p>
+    </div>
+
+    <!-- projects -->
+    <div class="m--card" id="projects">
+        
+        
+            <a href="https:&#x2F;&#x2F;github.com&#x2F;TheBloodyAmateur&#x2F;Chat-application" class="figure" data-color="#9C20FD">
+                <img class="figure__img" src="projects&#x2F;phoenix-messenger&#x2F;icon.png" alt="">
+                <span>Phoenix Messenger</span>
+            </a>
+        
+            <a href="https:&#x2F;&#x2F;github.com&#x2F;TheBloodyAmateur&#x2F;password_manager" class="figure" data-color="#394145">
+                <img class="figure__img" src="projects&#x2F;password-manager&#x2F;icon.png" alt="">
+                <span>Password Manager</span>
+            </a>
+        
+    </div>
+    
+    <!-- blog -->
+    <div class="m--card" id="blog">
+        
+        
+            <a href="/blog&#x2F;hello-world&#x2F;" class="blog-entry">
+                <h2>Hello, World!</h2>
+                <time datetime='2021-01-15T00:00:00+00:00'>2021-01-15</time>
+                <span>Lorem ipsum foo bar</span>
+            </a>
+        
+    </div>
+
+    <script>
+        feather.replace();
+        console.log({
+  "blog": {
+    "relative_path": "blog/_index.md",
+    "content": "",
+    "permalink": "http://127.0.0.1:1111/blog/",
+    "ancestors": [
+      "_index.md"
+    ],
+    "title": "Blog",
+    "description": null,
+    "extra": {},
+    "path": "blog/",
+    "components": [
+      "blog"
+    ],
+    "toc": [],
+    "word_count": 0,
+    "reading_time": 0,
+    "lang": "en",
+    "assets": [],
+    "pages": [
+      {
+        "relative_path": "blog/hello-world.md",
+        "content": "<h1 id=\"password-manager\">Password Manager</h1>\n<p>Lorem ipsum dolor sit amet...</p>\n<pre><code>int main()\n{\n\n    return 0;\n}\n</code></pre>\n<blockquote>\n<p>asdklajskd\nasdasd</p>\n<blockquote>\n<p>asdasd\nasdasd</p>\n</blockquote>\n</blockquote>\n",
+        "permalink": "http://127.0.0.1:1111/blog/hello-world/",
+        "slug": "hello-world",
+        "ancestors": [
+          "_index.md",
+          "blog/_index.md"
+        ],
+        "title": "Hello, World!",
+        "description": "Lorem ipsum foo bar",
+        "updated": null,
+        "date": "2021-01-15",
+        "year": 2021,
+        "month": 1,
+        "day": 15,
+        "taxonomies": {},
+        "extra": {},
+        "path": "blog/hello-world/",
+        "components": [
+          "blog",
+          "hello-world"
+        ],
+        "summary": null,
+        "toc": [
+          {
+            "level": 1,
+            "id": "password-manager",
+            "permalink": "http://127.0.0.1:1111/blog/hello-world/#password-manager",
+            "title": "Password Manager",
+            "children": []
+          }
+        ],
+        "word_count": 15,
+        "reading_time": 1,
+        "assets": [],
+        "draft": false,
+        "lang": "en",
+        "lighter": null,
+        "heavier": null,
+        "earlier": null,
+        "later": null,
+        "translations": []
+      }
+    ],
+    "subsections": [],
+    "translations": []
+  },
+  "config": {
+    "base_url": "http://127.0.0.1:1111",
+    "theme": null,
+    "title": null,
+    "description": null,
+    "default_language": "en",
+    "languages": [],
+    "translations": {},
+    "highlight_code": false,
+    "highlight_theme": "base16-ocean-dark",
+    "generate_feed": false,
+    "feed_limit": null,
+    "feed_filename": "atom.xml",
+    "hard_link_static": false,
+    "taxonomies": [],
+    "compile_sass": true,
+    "build_search_index": false,
+    "ignored_content": [],
+    "extra_syntaxes": [],
+    "link_checker": {
+      "skip_prefixes": [],
+      "skip_anchor_prefixes": []
+    },
+    "slugify": {
+      "paths": "on",
+      "taxonomies": "on",
+      "anchors": "on"
+    },
+    "extra": {},
+    "build_timestamp": 1610743678
+  },
+  "current_path": "/",
+  "current_url": "http://127.0.0.1:1111/",
+  "lang": "en",
+  "projects": {
+    "relative_path": "projects/_index.md",
+    "content": "",
+    "permalink": "http://127.0.0.1:1111/projects/",
+    "ancestors": [
+      "_index.md"
+    ],
+    "title": "Projects",
+    "description": null,
+    "extra": {},
+    "path": "projects/",
+    "components": [
+      "projects"
+    ],
+    "toc": [],
+    "word_count": 0,
+    "reading_time": 0,
+    "lang": "en",
+    "assets": [],
+    "pages": [
+      {
+        "relative_path": "projects/password-manager.md",
+        "content": "",
+        "permalink": "http://127.0.0.1:1111/projects/password-manager/",
+        "slug": "password-manager",
+        "ancestors": [
+          "_index.md",
+          "projects/_index.md"
+        ],
+        "title": "Password Manager",
+        "description": null,
+        "updated": null,
+        "date": null,
+        "year": null,
+        "month": null,
+        "day": null,
+        "taxonomies": {},
+        "extra": {
+          "url": "https://github.com/TheBloodyAmateur/password_manager",
+          "icon": "icon.png",
+          "color": "#394145"
+        },
+        "path": "projects/password-manager/",
+        "components": [
+          "projects",
+          "password-manager"
+        ],
+        "summary": null,
+        "toc": [],
+        "word_count": 0,
+        "reading_time": 0,
+        "assets": [],
+        "draft": false,
+        "lang": "en",
+        "lighter": null,
+        "heavier": null,
+        "earlier": null,
+        "later": null,
+        "translations": []
+      },
+      {
+        "relative_path": "projects/phoenix-messenger.md",
+        "content": "",
+        "permalink": "http://127.0.0.1:1111/projects/phoenix-messenger/",
+        "slug": "phoenix-messenger",
+        "ancestors": [
+          "_index.md",
+          "projects/_index.md"
+        ],
+        "title": "Phoenix Messenger",
+        "description": null,
+        "updated": null,
+        "date": null,
+        "year": null,
+        "month": null,
+        "day": null,
+        "taxonomies": {},
+        "extra": {
+          "url": "https://github.com/TheBloodyAmateur/Chat-application",
+          "icon": "icon.png",
+          "color": "#9C20FD"
+        },
+        "path": "projects/phoenix-messenger/",
+        "components": [
+          "projects",
+          "phoenix-messenger"
+        ],
+        "summary": null,
+        "toc": [],
+        "word_count": 0,
+        "reading_time": 0,
+        "assets": [],
+        "draft": false,
+        "lang": "en",
+        "lighter": null,
+        "heavier": null,
+        "earlier": null,
+        "later": null,
+        "translations": []
+      }
+    ],
+    "subsections": [],
+    "translations": []
+  },
+  "section": {
+    "relative_path": "_index.md",
+    "content": "",
+    "permalink": "http://127.0.0.1:1111/",
+    "ancestors": [],
+    "title": null,
+    "description": null,
+    "extra": {},
+    "path": "/",
+    "components": [],
+    "toc": [],
+    "word_count": null,
+    "reading_time": null,
+    "lang": "en",
+    "assets": [],
+    "pages": [],
+    "subsections": [
+      "blog/_index.md",
+      "projects/_index.md"
+    ],
+    "translations": []
+  }
+});
+    </script>
+
+<script src="/livereload.js?port=1024&amp;mindelay=10"></script></body>
+</html>

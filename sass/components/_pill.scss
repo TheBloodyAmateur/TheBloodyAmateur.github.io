@@ -1,0 +1,25 @@
+.pill {
+    display: inline-flex;
+    padding: 4px;
+    gap: 0px;
+
+    background-color: $bg-2;
+    border-radius: 1024px;
+
+    &__item {
+        line-height: 0;
+        border-radius: 1024px;
+
+        svg {
+            stroke-width: 1.5px;
+
+            width: 18px;
+            height: 18px;
+            margin: 8px;
+        }
+
+        &:hover {
+            background-color: $bg-3;
+        }
+    }
+}

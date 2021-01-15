@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Botan Celik - Portfolio</title>
+    <link rel="stylesheet" href="/style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@500;700&family=Jost:wght@500&family=Roboto+Mono:wght@500;700&display=swap">
+    <script src="https://unpkg.com/feather-icons"></script>
+</head>
+<body>
+
+    <!-- navigation sidebar -->
+    <div class="nav m--card">
+        <a href="#about" class="nav__item m--active"><i data-feather="user"></i><span>About</span></a>
+        <a href="#projects" class="nav__item"><i data-feather="git-pull-request"></i><span>Projects</span></a>
+        <a href="#blog" class="nav__item"><i data-feather="message-circle"></i><span>Blog</span></a>
+    </div>
+
+    <!-- about -->
+    <div class="about m--card" id="about">
+        <img class="about__img" src="/assets/profile.jpg" alt="" width="256">
+        <h1 class="about__title">Botan Celik</h1>
+        <div class="pill">
+            <a href="mailto:botan_kadir@outlook.com" class="pill__item"><i data-feather="mail">Mail</i></a>
+            <a href="https://github.com/TheBloodyAmateur" class="pill__item"><i data-feather="github">GitHub</i></a>
+            <a href="https://linkedin.com/in/botan-celik-313a1a1bb/" class="pill__item"><i data-feather="linkedin">LinkedIn</i></a>
+        </div>
+        <p>Hey! I’m Botan, an 18-year-old programmer from Austria. Feel free to check out my projects below.</p>
+    </div>
+
+    <!-- projects -->
+    <div class="m--card" id="projects">
+        {% set projects = get_section(path = "projects/_index.md") %}
+        {% for p in projects.pages | reverse %}
+            <a href="{{ p.extra.url }}" class="figure" data-color="{{ p.extra.color }}">
+                <img class="figure__img" src="{{ p.path }}{{ p.extra.icon }}" alt="">
+                <span>{{ p.title }}</span>
+            </a>
+        {% endfor %}
+    </div>
+    
+    <!-- blog -->
+    <div class="m--card" id="blog">
+        {% set blog = get_section(path="blog/_index.md") %}
+        {% for b in blog.pages | reverse %}
+            <a href="/{{ b.path }}" class="blog-entry">
+                <h2>{{ b.title }}</h2>
+                <time datetime='{{ b.date | date(format="%+") }}'>{{ b.date | date(format="%F") }}</time>
+                <span>{{ b.description }}</span>
+            </a>
+        {% endfor %}
+    </div>
+
+    <script>
+        feather.replace();
+        console.log({{__tera_context}});
+    </script>
+
+</body>
+</html>

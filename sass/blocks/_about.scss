@@ -1,0 +1,32 @@
+.about {
+    display: grid;
+    grid-template-columns: auto;
+    row-gap: 12px;
+
+    // width: 100%;
+    padding: 16px;
+
+    &__img {
+        width: 128px;
+        margin: auto;
+
+        border-radius: 1024px;
+    }
+
+    &__title {
+        margin: 0;
+
+        text-align: center;
+    }
+
+    .pill {
+        width: min-content;
+        margin: auto;
+    }
+
+    p {
+        margin: 0;
+        
+        text-align: center;
+    }
+}
