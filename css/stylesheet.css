@@ -1,0 +1,183 @@
+html,body{
+  height: 150%;
+  margin: 0;
+  scroll-behavior: smooth;
+}
+
+.background-img{
+  height: 50%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.img-nature{background-image: url("../img/nature.png");}
+.img-mountain{background-image: url("../img/mountain.png");}
+.img-forest{background-image: url("../img/forest.png");}
+
+.navi_sqr{
+  position: absolute;
+  width: 200px;
+  height: 200px;
+  left: 150px;
+  top: 100px;
+
+  background: #2C2C2C;
+  opacity: 0.70;
+  border-radius: 25px;
+  position: fixed;
+}
+
+.icon{
+  object-fit: cover;
+  position: fixed;
+
+  height: 100px;
+  width: 100px;
+}
+
+/*Profil*/
+.font_name{
+  color: #FFFFFF;
+  position: relative;
+  font-size: 50px;
+  left: 40px;
+  top: 10px;
+}
+
+.about_me_text{
+  position: absolute;
+  width: 800px;
+  height: 350px;
+  left: 500px;
+  top: 100px;
+
+  background: #161616;
+  opacity: 0.8;
+  border-radius: 25px;
+}
+
+.img_profil{
+  object-fit: cover;
+  position: absolute;
+  left: 1400px;
+  top: 100px;
+
+  border-radius: 10px;
+  height: 400px;
+  width: 300px;
+}
+
+.social_media{
+  position: absolute;
+  width: 800px;
+  height: 300px;
+  left: 500px;
+  top: 500px;
+
+  background: #161616;
+  opacity: 0.8;
+  border-radius: 10px;
+}
+
+.social_media_icon{
+  object-fit: cover;
+  position: absolute;
+
+  height: 100px;
+  width: 100px;
+}
+
+/*Projects*/
+.projects_field{
+  position: absolute;
+  width: 700px;
+  height: 300px;
+  left: 600px;
+  top: 1150px;
+
+  background: #000000;
+  mix-blend-mode: hard-light;
+  opacity: 0.7;
+  border-radius: 10px;
+}
+
+.divide{
+  position: absolute;
+  height: 8px;
+  left: 40px;
+  top: 120px;
+
+  background: #FFFFFF;
+  border-radius: 10px;
+}
+
+.text_font{
+  color: #5C5C5C;
+  position: absolute;
+  font-size: 22px;
+  left: 40px;
+  top: 120px;
+}
+
+.projects_sqr{
+  position: absolute;
+  width: 200px;
+  height: 200px;
+
+  background: #161616;
+
+  border-radius: 10px;
+}
+
+.projects_box{
+  position: absolute;
+  width: 160px;
+  height: 160px;
+  left: 20px;
+  top: 20px;
+
+  background: #2E41E8;
+  border-radius: 10px;
+}
+
+.projects_icon{
+  object-fit: cover;
+  position: absolute;
+
+  height: 100px;
+  width: 100px;
+}
+
+.info_box{
+  position: absolute;
+  width: 1100px;
+  height: 150px;
+
+  background: #161616;
+  mix-blend-mode: hard-light;
+  opacity: 0.7;
+  border-radius: 10px;
+}
+
+.languages{
+  position: absolute;
+  width: 500px;
+  height: 300px;
+
+  background: #161616;
+  mix-blend-mode: hard-light;
+  opacity: 0.7;
+  border-radius: 10px;
+}
+
+.list_data{
+  position: absolute;
+  left: 10px;
+  top: 130px;
+  font-size: 22px;
+}
+
+.text_list{
+  color: #FFFFFF;
+}
