@@ -173,9 +173,8 @@ html,body{
 
 .list_data{
   position: absolute;
-  left: 10px;
-  top: 130px;
   font-size: 22px;
+  line-height: 150%;
 }
 
 .text_list{
