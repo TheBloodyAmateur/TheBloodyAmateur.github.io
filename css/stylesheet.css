@@ -1,0 +1,472 @@
+html,
+body {
+  height: 150%;
+  margin: 0;
+  scroll-behavior: smooth;
+  font-family: "Raleway", sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.background-img {
+  height: 50%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.img-Info {
+  background-image: url("../images/background/background1.jpg");
+}
+.img-Projects {
+  background-image: url("../images/background/background3.jpg");
+}
+.img-Information {
+  background-image: url("../images/background/background2.jpg");
+}
+.img-Productivity {
+  background-image: url("../images/background/background3.png");
+}
+
+/*Smartphone*/
+@media only screen and (min-width: 375px) {
+  /*Menu*/
+  .menu {
+    position: fixed;
+    width: 15vw;
+    height: 100vh;
+    background: rgba(0, 0, 0, 0.375);
+  }
+
+  .menu_icon {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 15vh;
+    width: 10vw;
+    height: 10vw;
+  }
+
+  /*Profil*/
+  .profil_title_field {
+    position: absolute;
+    margin-left: 25vw;
+    margin-top: 10vh;
+    width: 60vw;
+    height: 10vh;
+
+    background: rgba(0, 0, 0, 0.5);
+    border-radius: 30px;
+  }
+
+  .profil_title {
+    color: #ffffff;
+    text-align: center;
+    font-size: 8vw;
+  }
+
+  .profil_field {
+    position: absolute;
+    margin-left: 25vw;
+    margin-top: 50vh;
+    width: 60vw;
+    height: 75vw;
+
+    background: rgba(0, 0, 0, 0.5);
+    border-radius: 30px;
+  }
+
+  .profil_field_text {
+    color: #ffffff;
+    font-size: 4vw;
+    margin-left: 4vw;
+    margin-right: 4vw;
+  }
+
+  .profil_image {
+    object-fit: contain;
+    position: absolute;
+    left: 25vw;
+    top: 22.5vh;
+    border-radius: 25px;
+    height: 45vw;
+    width: 60vw;
+  }
+
+  .profil_icon {
+    object-fit: cover;
+    position: relative;
+    height: 10vw;
+    margin-left: 8vw;
+  }
+
+  /*Projects*/
+  .projects_icon {
+    position: absolute;
+    object-fit: cover;
+    margin-left: 10vw;
+    margin-top: 2.5vw;
+    width: 15vw;
+    height: 15vw;
+
+    background: rgba(255, 255, 255, 0.8);
+    border: 5px solid #000000;
+    box-sizing: border-box;
+    border-radius: 30px;
+  }
+
+  .projects_field {
+    background-color: #104888;
+    border: 1.5vw solid #000000;
+    position: absolute;
+    width: 60vw;
+    height: 40vw;
+    margin-left: 25vw;
+    margin-top: 25vh;
+    border-radius: 25px;
+  }
+
+  .projects_field_camera {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -1vw;
+    height: 6px;
+    width: 6px;
+    background-color: grey;
+    border-radius: 50%;
+  }
+
+  .projects_img {
+    width: 8vw;
+    margin-left: 3vw;
+    margin-top: 3vw;
+  }
+
+  /*Resume & Skills*/
+  .list {
+    margin-left: 1vw;
+    margin-top: 1vw;
+    font-size: 4.5vw;
+    color: white;
+  }
+
+  .information_resume_field {
+    position: absolute;
+    margin-left: 25vw;
+    margin-top: 22vh;
+    width: 60vw;
+    height: auto;
+
+    background: rgba(0, 0, 0, 0.5);
+    border-radius: 25px;
+  }
+
+  .information_skills_field {
+    position: absolute;
+    margin-left: 25vw;
+    margin-top: 60vh;
+    width: 60vw;
+    height: auto;
+
+    background: rgba(0, 0, 0, 0.5);
+    border-radius: 25px;
+  }
+}
+
+/*Tablet*/
+@media only screen and (min-width: 768px) {
+  /*Menu*/
+  .menu {
+    position: fixed;
+    width: 10vw;
+    height: 100vh;
+    background: rgba(0, 0, 0, 0.375);
+  }
+
+  .menu_icon {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 15vh;
+    width: 7vw;
+    height: 7vw;
+  }
+
+  /*Profil*/
+  .profil_title_field {
+    position: absolute;
+    margin-left: 25vw;
+    margin-top: 10vh;
+    width: 60vw;
+    height: 10vh;
+
+    background: rgba(0, 0, 0, 0.5);
+    border-radius: 30px;
+  }
+
+  .profil_title {
+    color: #ffffff;
+    text-align: center;
+    font-size: 6vw;
+  }
+
+  .profil_field {
+    position: absolute;
+    margin-left: 25vw;
+    margin-top: 60vh;
+    width: 60vw;
+    height: 45vw;
+
+    background: rgba(0, 0, 0, 0.5);
+    border-radius: 30px;
+  }
+
+  .profil_field_text {
+    color: #ffffff;
+    font-size: 2.75vw;
+    margin-left: 4vw;
+    margin-right: 4vw;
+  }
+
+  .profil_image {
+    object-fit: contain;
+    position: absolute;
+    left: 25vw;
+    top: 22.5vh;
+    border-radius: 25px;
+    height: 45vw;
+    width: 60vw;
+  }
+
+  .profil_icon {
+    object-fit: cover;
+    position: relative;
+    height: 10vw;
+    margin-left: 8vw;
+  }
+
+  /*Projects*/
+  .projects_icon {
+    position: absolute;
+    object-fit: cover;
+    margin-left: 10vw;
+    margin-top: 2.5vw;
+    width: 15vw;
+    height: 15vw;
+
+    background: rgba(255, 255, 255, 0.8);
+    border: 5px solid #000000;
+    box-sizing: border-box;
+    border-radius: 30px;
+  }
+
+  .projects_field {
+    background-color: #104888;
+    border: 1.5vw solid #000000;
+    position: absolute;
+    width: 60vw;
+    height: 40vw;
+    margin-left: 25vw;
+    margin-top: 25vh;
+    border-radius: 25px;
+  }
+
+  .projects_field_camera {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -1vw;
+    height: 6px;
+    width: 6px;
+    background-color: grey;
+    border-radius: 50%;
+  }
+
+  .projects_img {
+    width: 8vw;
+    margin-left: 3vw;
+    margin-top: 3vw;
+  }
+
+  /*Resume & Skills*/
+  .list {
+    margin-left: 1vw;
+    margin-top: 1vw;
+    font-size: 3vw;
+    color: white;
+  }
+
+  .information_resume_field {
+    position: absolute;
+    margin-left: 25vw;
+    margin-top: 22vh;
+    width: 60vw;
+    height: auto;
+
+    background: rgba(0, 0, 0, 0.5);
+    border-radius: 30px;
+  }
+
+  .information_skills_field {
+    position: absolute;
+    margin-left: 25vw;
+    margin-top: 55vh;
+    width: 60vw;
+    height: auto;
+
+    background: rgba(0, 0, 0, 0.5);
+    border-radius: 30px;
+  }
+}
+
+/*Desktop*/
+@media only screen and (min-width: 1360px) {
+  /*Menu*/
+  .menu {
+    position: fixed;
+    width: 8vw;
+    height: 100vh;
+    background: rgba(0, 0, 0, 0.375);
+  }
+
+  .menu_name {
+    color: #ffffff;
+    text-align: center;
+    font-size: 1.2vw;
+  }
+
+  .menu_icon {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 14vh;
+    width: 4vw;
+    height: 4vw;
+  }
+
+  /*Profil*/
+  .profil_title_field {
+    position: absolute;
+    margin-left: 25vw;
+    margin-top: 10vh;
+    width: 32vw;
+    height: 15vh;
+
+    background: rgba(0, 0, 0, 0.5);
+    border-radius: 30px;
+  }
+
+  .profil_title {
+    color: #ffffff;
+    text-align: center;
+    font-size: 2.5vw;
+  }
+
+  .profil_field {
+    position: absolute;
+    margin-left: 25vw;
+    margin-top: 30vh;
+    width: 32vw;
+    height: 25vw;
+
+    background: rgba(0, 0, 0, 0.5);
+    border-radius: 30px;
+  }
+
+  .profil_field_text {
+    color: #ffffff;
+    font-size: 1.5vw;
+    margin-left: 1vw;
+    margin-right: 1vw;
+  }
+
+  .profil_image {
+    object-fit: cover;
+    position: absolute;
+    left: 60vw;
+    top: 10vh;
+    border-radius: 25px;
+    height: 35vw;
+    width: 25vw;
+  }
+
+  .profil_icon {
+    object-fit: cover;
+    position: relative;
+    height: 7vw;
+    margin-left: 2.5vw;
+  }
+
+  /*Projects*/
+  .projects_icon {
+    position: absolute;
+    object-fit: cover;
+    margin-left: 8.5vw;
+    margin-top: 2.5vw;
+    width: 10vw;
+    height: 10vw;
+
+    background: rgba(255, 255, 255, 0.8);
+    border: 5px solid #000000;
+    box-sizing: border-box;
+    border-radius: 30px;
+  }
+
+  .projects_field {
+    background-color: #104888;
+    border: 1.2vw solid #000000;
+    position: absolute;
+    width: 30vw;
+    height: 40vw;
+    margin-left: 60vw;
+    margin-top: 10vh;
+    border-radius: 25px;
+  }
+
+  .projects_field_camera {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -1vw;
+    height: 10px;
+    width: 10px;
+    background-color: grey;
+    border-radius: 50%;
+  }
+
+  .projects_img {
+    width: 6vw;
+    margin-left: 2vw;
+    margin-top: 2vw;
+  }
+
+  /*Resume & Skills*/
+  .list {
+    margin-left: 1vw;
+    margin-top: 1vw;
+    font-size: 1.7vw;
+    color: white;
+  }
+
+  .resume_field {
+    position: absolute;
+    margin-left: 25vw;
+    margin-top: 30vh;
+    width: 32vw;
+    height: auto;
+
+    background: rgba(0, 0, 0, 0.5);
+    border-radius: 30px;
+  }
+
+  .skills_field {
+    position: absolute;
+    margin-left: 60vw; 
+    margin-top: 5vw;
+    width: 30vw;
+    height: auto;
+
+    background: rgba(0, 0, 0, 0.5);
+    border-radius: 30px;
+  }
+}
