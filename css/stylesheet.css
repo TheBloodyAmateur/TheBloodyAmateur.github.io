@@ -72,7 +72,7 @@ body {
     margin-left: 25vw;
     margin-top: 50vh;
     width: 60vw;
-    height: 75vw;
+    height: auto;
 
     background: rgba(0, 0, 0, 0.5);
     border-radius: 30px;
@@ -86,12 +86,12 @@ body {
   }
 
   .profil_image {
-    object-fit: contain;
+    object-fit: cover;
     position: absolute;
     left: 25vw;
-    top: 22.5vh;
+    top: 10vh;
     border-radius: 25px;
-    height: 45vw;
+    height: 80vw;
     width: 60vw;
   }
 
@@ -234,9 +234,9 @@ body {
   .profil_field {
     position: absolute;
     margin-left: 25vw;
-    margin-top: 60vh;
+    margin-top: 55vh;
     width: 60vw;
-    height: 45vw;
+    height: auto;
 
     background: rgba(0, 0, 0, 0.5);
     border-radius: 30px;
@@ -250,13 +250,13 @@ body {
   }
 
   .profil_image {
-    object-fit: contain;
+    object-fit: cover;
     position: absolute;
-    left: 25vw;
-    top: 22.5vh;
+    left: 30vw;
+    top: 5vh;
     border-radius: 25px;
-    height: 45vw;
-    width: 60vw;
+    height: 60vw;
+    width: 50vw;
   }
 
   .profil_icon {
@@ -302,7 +302,7 @@ body {
     width: 60vw;
     height: 40vw;
     margin-left: 25vw;
-    margin-top: 25vh;
+    margin-top: 20vh;
     border-radius: 25px;
   }
 
@@ -405,9 +405,9 @@ body {
   .profil_field {
     position: absolute;
     margin-left: 25vw;
-    margin-top: 30vh;
+    margin-top: 10vh;
     width: 32vw;
-    height: 25vw;
+    height: auto;
 
     background: rgba(0, 0, 0, 0.5);
     border-radius: 30px;
@@ -426,7 +426,7 @@ body {
     left: 60vw;
     top: 10vh;
     border-radius: 25px;
-    height: 35vw;
+    height: 30vw;
     width: 25vw;
   }
 
