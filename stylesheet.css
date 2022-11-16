@@ -1,0 +1,225 @@
+html,body {
+    height: 100%;
+    margin: 0;
+    scroll-behavior: smooth;
+    font-family: "Raleway", sans-serif;
+}
+
+.background-img {
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.img-landscap {
+    background-image: url("img/landscape.JPEG");
+}
+
+.img-profil{
+    background-image: url("img/nature.jpg");
+}
+
+.img-work{
+    background-image: url("img/bridge.jpeg");
+}
+
+.img-projects{
+    background-image: url("img/river.jpeg");
+}
+
+.social-media{
+    position: fixed;
+    left: -30vw;
+    width: 30vw;
+    height: 100vh;
+    background-color: white;
+    opacity: 0.8;
+    transition: left 1s;
+    z-index: 1;
+}
+
+.social-media-field{
+    position: relative;
+    left: 20%;
+    top: 20%;
+    list-style-type: square;
+    font-size: 30px;
+}
+
+.social-media-items{
+    text-decoration: none;
+    color: #000000;
+    margin-top: 2vw;
+    line-height: 2.5em;
+}
+
+.menu-bar{
+    position: fixed;
+    top: 10%;
+    left: 10vw;
+    right: 10vw;
+    height: 2px;
+    background: #FFFFFF;
+    border-radius: 25px;
+    z-index: 2;
+}
+
+.menu-items{
+    position: relative;
+    color: #FFFFFF;
+    top: -40px;
+    text-align: center;
+    word-spacing: 100px;
+}
+
+.menu-link{
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+.menu-link:hover{
+    text-decoration: none;
+    color: #FFFFFF;
+    background-color: grey;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 25px;
+    opacity: 0.5;
+}
+
+/*Intro*/
+.title{
+    position: relative;
+    top: 45%;
+    font-size: 10vh;
+    color: #FFFFFF;
+    text-align: center;
+    margin-left: 20%;
+    margin-right: 20%;
+    border-style: solid;
+    border-width: 2px;
+    border-color: #FFFFFF;
+}
+
+/*Profil*/
+.profil-img{
+    position: relative;
+    right: 10vw;
+    top: 20vh;
+    float: right;
+    width: 35vw;
+    border-radius: 25px;
+    border: 3px solid #000000;
+}
+
+.profil-field{
+    color: #FFFFFF;
+    width: 35vw;
+    float: right;
+    position: relative;
+    top: 20vh;
+    right: 20vw;
+}
+
+.profil-body{
+    font-size: 2vw;
+}
+
+/*Resume*/
+.resume-field{
+    position: relative;
+    background-color: white;
+    opacity: 0.6;
+    left: 10%;
+    top: 17.5%;
+    width: 80%;
+    height: 75%;
+    border-radius: 15px;
+}
+
+.resume-titel{
+    position: relative;
+    font-size: 2vw;
+    left: 2vw;
+    top: 2vw;
+}
+
+.resume-box{
+    display: inline-block;
+    position: relative;
+    left: 2vw;
+    top: 2vw;
+    margin-left: 8vw;
+    width: 10vw;
+    height: 10vw;
+    background-color: rgb(224, 224, 224);
+    border-radius: 25px;
+    border: none;
+    font-size: 10px;
+    text-align: center;
+}
+
+.resume-box-title{
+    position: relative;
+    font-size: 20px;
+    color: #282828;
+
+}
+
+.resume-info-field{
+    margin: 4vw;
+    background-color: rgb(224, 224, 224);
+    border-radius: 25px;
+    height: 45vh;
+    position: relative;
+    top: 2.5vh;
+}
+
+.resume-info-title{
+    position: relative;
+    left: 2vw;
+    top: 2vw;
+    right: 8vw;
+    font-size: 40px;
+}
+
+.resume-info-trendline{
+    position: relative;
+    top: 5%;
+    left: 2vw;
+    right: 4vw;
+    height: 2px;
+    width: 60vw;
+    background: #000000;
+    border-radius: 25px;
+}
+
+.resume-info-text{
+    position: relative;
+    top: 10%;
+    left: 2vw;
+    font-size: 20px;
+}
+
+/*Projects*/
+.projects-list{
+    position: relative;
+    left: 1vw;
+    font-size: 40px;
+    line-height: 1.75;
+}
+
+.projects-list-element{
+    text-decoration: none;
+    color: #000000;
+}
+
+.projects-list-element:hover{
+    text-decoration: none;
+    color: #000000;
+    background-color: grey;
+    padding: 10px 20px;
+    border-radius: 25px;
+    opacity: 0.5;
+}

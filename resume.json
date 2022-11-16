@@ -1,0 +1,14 @@
+{
+    "Kapsch Converged Services GmbH":{
+        "info": "Splunk and JIRA"
+    },
+    "A1":{
+        "info":"RestAPI"
+    },
+    "Swarovski":{
+        "info":"Microsoft Power Apps"
+    },
+    "DVT":{
+        "info":"Java and Selenium."
+    }
+}
