@@ -36,10 +36,20 @@ function loadResumeInfo(name) {
 function socialField(){
     const field = document.getElementById("social");
     let left = window.getComputedStyle(field).left;
-    if(left.lastIndexOf("-")==0){
-        field.style.left = "0vw";
+    if(window.screen.width >=600){
+        if(left.lastIndexOf("-")==0){
+            field.style.left = "0vw";
+        }
+        else{
+            field.style.left = "-30vw";
+        }
     }
     else{
-        field.style.left = "-30vw";
+        if(left.lastIndexOf("-")==0){
+            field.style.left = "0vw";
+        }
+        else{
+            field.style.left = "-50vw";
+        }
     }
 }
