@@ -22,7 +22,7 @@ body {
 body {
     display: flex;
     flex-direction: column;
-    justify-content: space-evenly;
+    justify-content: flex-start;
     align-items: center;
     padding: 0 15px;
     overflow-x: hidden;
@@ -61,6 +61,13 @@ nav a:hover {
     transition: all 0.3s ease;
 }
 
+.site-content {
+    flex: 1;           /* fill the space above the footer */
+    overflow-y: auto;  /* scroll when content grows */
+    padding: 0 15px;   /* match your body’s horizontal gutter */
+    box-sizing: border-box;
+  }
+
 /* Container */
 div.container {
     background: linear-gradient(to right, var(--dark-charcoal), var(--slate-black));
@@ -95,29 +102,22 @@ div.container h2 {
     border-radius: 0 5px 5px 0;
 }
 
-/* Skills section */
-.skill-container {
+#skills {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     gap: 15px;
-    background: linear-gradient(to right, var(--dark-charcoal), var(--slate-black));
-    padding: 15px;
-    border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    transition: all 0.3s ease;
-    width: 100%;
-    max-width: 1200px;
-    margin: 0 auto 20px auto;
-    min-height: fit-content;
-    box-sizing: border-box;
-}
-
-.skill-container h3 {
+  }
+  
+  #skills h3 {
+    flex: 0 1 auto;
+    margin: 5px;
+    padding: 10px 15px;
+    background-color: var(--slate-black);
+    border-radius: 5px;
+    font-size: clamp(14px, 2vw, 18px);
     color: var(--light-gray);
-    width: 100%;
-    font-size: clamp(18px, 3vw, 24px);
-}
+  }
 
 /* Footer */
 footer {
@@ -126,9 +126,6 @@ footer {
     width: 100%;
     text-align: center;
     padding: 10px 0;
-    position: fixed;
-    bottom: 0;
-    left: 0;
     margin-top: auto;
     font-size: clamp(12px, 1.8vw, 16px);
 }
@@ -265,7 +262,9 @@ footer a {
 .link-container {
     display: flex;
     flex-wrap: wrap;
+    flex-direction: column;
     justify-content: center;
+    align-items: center;
     gap: 15px;
     width: 100%;
     max-width: 1200px;

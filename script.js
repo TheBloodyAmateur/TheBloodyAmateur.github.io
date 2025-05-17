@@ -2,7 +2,7 @@ function loadSkill() {
   fetch('../resource.json')
     .then(response => response.json())
     .then(data => {
-      const container = document.querySelector('.skill-container');
+      const container = document.querySelector('.container#skills');
       data.skills.forEach(skill => {
         const card = document.createElement('div');
         card.classList.add('skill-card');
