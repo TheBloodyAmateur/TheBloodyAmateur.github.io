@@ -1,0 +1,95 @@
+{
+    "skills": [
+        "Java",
+        "Spring Boot",
+        "Python",
+        "FastAPI",
+        "Flask",
+        "Pandas",
+        "Splunk Enterprise",
+        "Splunk ITSI",
+        "Splunk Enteprise Security",
+        "REST API",
+        "JavaScript",
+        "HTML",
+        "CSS",
+        "TypeScript",
+        "Angular",
+        "SQL",
+        "PostgreSQL"
+    ],
+    "projects": [
+        {
+            "name": "EventManager",
+            "description": "A java-based application to give users the ability to create informative events and manage them.",
+            "url": "https://github.com/TheBloodyAmateur/EventManager"
+        },
+        {
+            "name": "EventManagerPython",
+            "description": "The python version of my EventManager project",
+            "url": "https://github.com/TheBloodyAmateur/EventManagerPython"
+        },
+        {
+            "name": "richAF",
+            "description": "richAF is a Java application that uses a custom web crawler to gather articles from user-provided URLs and then leverages the Ollama API to classify articles and predict potential stock movements.",
+            "url": "https://github.com/teamAF-FHCampusWien/richAF"
+        }
+    ],
+    "experience": [
+        {
+            "role": "Privat Tutor",
+            "company": "Freelancer",
+            "duration": "October 2024 - Present",
+            "responsibilities": [
+                "Teaching programming languages such as Java und Python"
+            ]
+        },
+        {
+            "role": "Service Monitoring and Assurance Engineer",
+            "company": "Cancom Austria",
+            "duration": "Septmber 2022 - Present",
+            "responsibilities": [
+                "Developed applications using Python and JavaScript.",
+                "Consult management on applications regarding custom solutions for clients.",
+                "Consult and implement Splunk solutions for clients to imporve their IT operations.",
+                "Onboard and analyze data from various sources."
+            ]
+        },
+        {
+            "role": "Automation Engineer / Intern",
+            "company": "A1",
+            "duration": "March 2022 - September 2022",
+            "responsibilities": [
+                "Developing microservices to digitize business processes",
+                "Creating REST APIs endpoints in Java, Python and Typescript.",
+                "Implementing internal web applications using TypeScript and Angular."
+            ]
+        },
+        {
+            "role": "Software Engineer / Intern",
+            "company": "SWARVSKI",
+            "duration": "August 2020 - September 2020",
+            "responsibilities": [
+                "Creating an room booking application for several company locations using Microsoft Power Apps."
+            ]
+        },
+        {
+            "role": "Software Engineer / Intern",
+            "company": "DVT-Daten-Verarbeitung-Tirol",
+            "duration": "August 2019 - September 2019",
+            "responsibilities": [
+                "Testing the companies portal for the tyorolean government using Selenium."
+            ]
+        }
+    ],
+    "links":[
+        {
+            "name": "GitHub",
+            "url": "https://github.com/TheBloodyAmateur"
+        },
+        {
+            "name": "LinkedIn",
+            "url": "https://www.linkedin.com/in/botan-celik-313a1a1bb/"
+        }
+    ]
+}
