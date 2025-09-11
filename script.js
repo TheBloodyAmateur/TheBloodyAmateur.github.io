@@ -111,7 +111,7 @@ function loadLinks() {
 
 function updateFooter() {
   const currentYear = new Date().getFullYear();
-  const email = "botan.celik@icloud.com";
+  const email = "celikbotan@proton.me";
   const footerElement = document.querySelector('footer');
   
   if (footerElement) {

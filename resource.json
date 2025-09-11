@@ -39,6 +39,14 @@
     ],
     "experience": [
         {
+            "role": "Software Developer",
+            "company": "CompaxDigital",
+            "duration": "August 2025 - Present",
+            "responsibilities": [
+                "Expanding financial features for customers for the in-house ERP system"
+            ]
+        },
+        {
             "role": "Privat Tutor",
             "company": "Freelancer",
             "duration": "October 2024 - Present",
@@ -49,7 +57,7 @@
         {
             "role": "Service Monitoring and Assurance Engineer",
             "company": "Cancom Austria",
-            "duration": "Septmber 2022 - Present",
+            "duration": "Septmber 2022 - July 2025",
             "responsibilities": [
                 "Developed applications using Python and JavaScript.",
                 "Consult management on applications regarding custom solutions for clients.",
